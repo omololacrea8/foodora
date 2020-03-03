@@ -1,0 +1,61 @@
+.nav-flex-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: absolute;
+    z-index: 100;
+    left: 0;
+    width: 100%;
+    padding: 0;
+}
+
+.nav-flex-row li {
+    text-decoration: none;
+    list-style-type: none;
+    padding: 20px 15px;
+}
+
+.nav-flex-row li a {
+    font-family: 'Big Shoulders Text', cursive;
+    color: #ffffff;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    font-weight: 300;
+}
+
+.section-introd {
+    height: 820px;
+    background-image: url(img/rach.jpg);
+    opacity: 0.7;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-introd h1 {
+    text-align: center;
+    color: blue;
+    font-size: 4em;
+    font-weight: 700;
+}
+
+.section-introd header {
+    display: flex;
+    flex: 4;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.link {
+    flex: 1;
+}
+.link p{
+    color:black;
+    font-size: 20px;
+    flex: 1;
+    text-align: center;
+    font-weight: bold;
+}
